@@ -1,0 +1,54 @@
+body {
+    background-color: #fafafa; /* Couleur de fond */
+}
+
+.navbar {
+    background-color: #f0f0f0; /* Couleur de fond de la barre de navigation */
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.nav-link {
+    color: #2c3e50; /* Couleur des liens de navigation */
+}
+
+.nav-link:hover {
+    color: #e74c3c; /* Couleur au survol des liens de navigation */
+}
+
+.dropdown-menu {
+    background-color: #fafafa; /* Couleur de fond du menu déroulant */
+}
+
+.dropdown-item {
+    color: #2c3e50; /* Couleur des éléments du menu déroulant */
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0; /* Couleur de fond au survol des éléments du menu déroulant */
+}
+
+.py-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.card-header {
+    background-color: #f0f0f0; /* Couleur d'en-tête */
+    border-bottom: none; /* Suppression de la bordure inférieure */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50; /* Couleur de texte */
+}
+
+.card-body {
+    padding: 20px;
+}

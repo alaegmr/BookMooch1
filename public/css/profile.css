@@ -1,0 +1,40 @@
+body {
+    background-color: #fafafa; /* Couleur de fond */
+}
+
+/* Redéfinir la classe container pour inclure la barre de navigation */
+.container {
+    display: flex;
+    align-items: center; /* Centrer horizontalement */
+}
+
+.card {
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    margin-top: 20px; /* Ajouter un espacement en haut de la carte */
+}
+
+.card-header {
+    background-color: #f0f0f0; /* Couleur d'en-tête */
+    border-bottom: none; /* Suppression de la bordure inférieure */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50; /* Couleur de texte */
+    padding: 20px 0; /* Ajout de remplissage */
+}
+
+.form-control {
+    border-radius: 0; /* Suppression du bord arrondi */
+}
+
+.btn-primary, .btn-danger {
+    width: 100%; /* Largeur totale */
+    padding: 10px; /* Ajout de remplissage */
+    font-weight: bold;
+}
+
+.mb-4 {
+    margin-bottom: 2rem !important; /* Réduire l'espace entre les cartes */
+}
